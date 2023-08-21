@@ -67,7 +67,8 @@ You need to have [rust](https://rust-lang.org), [make](http://www.gnu.org/softwa
 $ git clone https://github.com/findomain/findomain.git
 $ cd findomain
 $ cargo build --release
-$ sudo cp target/release/findomain /usr/bin/
+$ sudo ln -s target/release/findomain /usr/bin/findomain
+
 $ findomain
 ```
 
